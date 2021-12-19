@@ -3,7 +3,7 @@ function! GetRandom(min, max)
 endfunction
 
 function! GetRandomDate()
-    return GetRandom(1980, 2017) . '-' . GetRandom(1, 12) . '-' . GetRandom(1, 28)
+    return GetRandom(1980, 2022) . '-' . GetRandom(1, 12) . '-' . GetRandom(1, 30)
 endfunction
 
 function! GetRandomDateTime()
